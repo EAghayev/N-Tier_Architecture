@@ -1,0 +1,16 @@
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\bin\Debug\netcoreapp3.1\QuarterApp.Data.deps.json
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\bin\Debug\netcoreapp3.1\QuarterApp.Data.runtimeconfig.json
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\bin\Debug\netcoreapp3.1\QuarterApp.Data.runtimeconfig.dev.json
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\bin\Debug\netcoreapp3.1\QuarterApp.Data.dll
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\bin\Debug\netcoreapp3.1\QuarterApp.Data.pdb
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\bin\Debug\netcoreapp3.1\QuarterApp.Core.dll
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\bin\Debug\netcoreapp3.1\QuarterApp.Core.pdb
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.csproj.AssemblyReference.cache
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.AssemblyInfoInputs.cache
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.AssemblyInfo.cs
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.dll
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.pdb
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.genruntimeconfig.cache
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Data\obj\Debug\netcoreapp3.1\QuarterApp.Data.csproj.CopyComplete

@@ -1,0 +1,10 @@
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\bin\Debug\netcoreapp3.1\QuarterApp.Core.deps.json
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\bin\Debug\netcoreapp3.1\QuarterApp.Core.dll
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\bin\Debug\netcoreapp3.1\QuarterApp.Core.pdb
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\obj\Debug\netcoreapp3.1\QuarterApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\obj\Debug\netcoreapp3.1\QuarterApp.Core.AssemblyInfoInputs.cache
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\obj\Debug\netcoreapp3.1\QuarterApp.Core.AssemblyInfo.cs
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\obj\Debug\netcoreapp3.1\QuarterApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\obj\Debug\netcoreapp3.1\QuarterApp.Core.dll
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\obj\Debug\netcoreapp3.1\QuarterApp.Core.pdb
+C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Core\obj\Debug\netcoreapp3.1\QuarterApp.Core.csproj.AssemblyReference.cache
