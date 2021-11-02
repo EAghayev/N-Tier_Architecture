@@ -17,6 +17,8 @@ using QuarterApp.Core;
 using QuarterApp.Data;
 using QuarterApp.Service.CustomExceptions;
 using QuarterApp.Service.Dtos.CategoryDtos;
+using QuarterApp.Service.HelperService.Implementations;
+using QuarterApp.Service.HelperService.Interfaces;
 using QuarterApp.Service.Profiles;
 using QuarterApp.Service.Services.Implementations;
 using QuarterApp.Service.Services.Interfaces;
@@ -48,8 +50,11 @@ namespace QuarterApp.Api
 
             services.AddMapperService();
 
+            services.AddSingleton<IHelperAccessor, HelperAccessor>();
+            services.AddScoped<IFileManager, FileManager>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IPropertyService, PropertyService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -65,6 +70,7 @@ namespace QuarterApp.Api
 
             app.UseHttpsRedirection();
 
+            app.UseStaticFiles();
             app.UseRouting();
 
             app.UseAuthorization();

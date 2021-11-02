@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
+using QuarterApp.Service.HelperService.Interfaces;
 using QuarterApp.Service.Profiles;
 using System;
 using System.Collections.Generic;
@@ -12,13 +13,11 @@ namespace QuarterApp.Api.ServiceExtentions
     {
         public static void AddMapperService(this IServiceCollection services)
         {
-            var mapConfig = new MapperConfiguration(mc =>
-            {
-                mc.AddProfile(new MappingProfile());
-            });
 
-            IMapper mapper = mapConfig.CreateMapper();
-            services.AddSingleton(mapper);
+            services.AddSingleton(provider => new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile(provider.GetService<IHelperAccessor>()));
+            }).CreateMapper());
         }
     }
 }

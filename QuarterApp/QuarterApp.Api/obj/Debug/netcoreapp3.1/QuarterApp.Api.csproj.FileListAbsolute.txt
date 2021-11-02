@@ -75,4 +75,3 @@ C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Api\bin\De
 C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Api\obj\Debug\netcoreapp3.1\QuarterApp.Api.csproj.CopyComplete

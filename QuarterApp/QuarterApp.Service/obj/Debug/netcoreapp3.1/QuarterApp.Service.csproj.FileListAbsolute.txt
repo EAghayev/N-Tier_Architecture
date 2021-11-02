@@ -12,4 +12,3 @@ C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Service\ob
 C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Service\obj\Debug\netcoreapp3.1\QuarterApp.Service.csproj.CoreCompileInputs.cache
 C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Service\obj\Debug\netcoreapp3.1\QuarterApp.Service.dll
 C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Service\obj\Debug\netcoreapp3.1\QuarterApp.Service.pdb
-C:\Users\Eagha\Desktop\CodeLessons\P123\Quarter\QuarterApp\QuarterApp.Service\obj\Debug\netcoreapp3.1\QuarterApp.Service.csproj.CopyComplete

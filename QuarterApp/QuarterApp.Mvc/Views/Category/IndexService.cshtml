@@ -1,0 +1,15 @@
+﻿@using QuarterApp.Service.Dtos.CategoryDtos;
+@using QuarterApp.Service.Dtos;
+@model PagenatedListDto<CategoryListItemDto>
+@{
+    ViewData["Title"] = "IndexService";
+}
+
+<h1>IndexService</h1>
+<ul>
+    @foreach (var item in Model.Items)
+    {
+       <li>@item.Name</li>
+    }
+</ul>
+

@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuarterApp.Api", "QuarterAp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA62619C-B386-4C3A-95CE-4630C7514FBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuarterApp.Service", "QuarterApp.Service\QuarterApp.Service.csproj", "{B73B8BD2-D83F-4E4F-A3C2-A2FF5202BACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuarterApp.Service", "QuarterApp.Service\QuarterApp.Service.csproj", "{B73B8BD2-D83F-4E4F-A3C2-A2FF5202BACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuarterApp.Mvc", "QuarterApp.Mvc\QuarterApp.Mvc.csproj", "{731E32FF-B724-4CE1-8BEB-D7410BAE784E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{B73B8BD2-D83F-4E4F-A3C2-A2FF5202BACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B73B8BD2-D83F-4E4F-A3C2-A2FF5202BACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B73B8BD2-D83F-4E4F-A3C2-A2FF5202BACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731E32FF-B724-4CE1-8BEB-D7410BAE784E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731E32FF-B724-4CE1-8BEB-D7410BAE784E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731E32FF-B724-4CE1-8BEB-D7410BAE784E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731E32FF-B724-4CE1-8BEB-D7410BAE784E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{91B2BF28-06AC-4DB0-AD3D-B3A89516A0D4} = {AA62619C-B386-4C3A-95CE-4630C7514FBE}
 		{2EFBAB6B-959D-4848-AEBE-39A933901CA2} = {AA62619C-B386-4C3A-95CE-4630C7514FBE}
 		{B73B8BD2-D83F-4E4F-A3C2-A2FF5202BACF} = {AA62619C-B386-4C3A-95CE-4630C7514FBE}
+		{731E32FF-B724-4CE1-8BEB-D7410BAE784E} = {AA62619C-B386-4C3A-95CE-4630C7514FBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC8114FB-F369-4B62-A503-CEB20002F9BE}

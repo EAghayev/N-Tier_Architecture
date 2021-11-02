@@ -12,6 +12,7 @@ namespace QuarterApp.Data.Configurations
         public void Configure(EntityTypeBuilder<Property> builder)
         {
             builder.Property(x => x.Name).HasMaxLength(250).IsRequired(true);
+            builder.Property(x => x.FileName).HasMaxLength(100);
             builder.Property(x => x.Price).HasColumnType("decimal(18,2)").IsRequired(false);
             builder.Property(x => x.WeeklyPrice).HasColumnType("decimal(18,2)").IsRequired(false);
             builder.Property(x => x.MonthlyPrice).HasColumnType("decimal(18,2)").IsRequired(false);

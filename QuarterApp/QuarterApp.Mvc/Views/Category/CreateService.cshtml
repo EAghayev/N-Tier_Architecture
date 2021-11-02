@@ -1,0 +1,14 @@
+﻿@using QuarterApp.Service.Dtos.CategoryDtos;
+@model CategoryPostDto
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post">
+    <input asp-for="Name" />
+    <span class="text-danger" asp-validation-for="Name"></span>
+    <button class="btn btn-primary" type="submit">Create</button>
+    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+</form>
+
+

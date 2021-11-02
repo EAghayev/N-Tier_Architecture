@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 using QuarterApp.Service.CustomExceptions;
 using System;
 using System.Collections.Generic;
@@ -32,15 +33,19 @@ namespace QuarterApp.Api.ServiceExtentions
                             statusCode = 409;
                         else if (contextFeature.Error is PageIndexFormatException)
                             statusCode = 400;
+                        else if (contextFeature.Error is FileFormatException)
+                            statusCode = 400;
                     }
 
                     context.Response.StatusCode = statusCode;
 
-                    await context.Response.WriteAsync(new
+                    var errprJsonStr = JsonConvert.SerializeObject(new
                     {
-                        code = statusCode,
-                        message = message
-                    }.ToString());
+                            code = statusCode,
+                            message = message
+                    });
+
+                    await context.Response.WriteAsync(errprJsonStr);
                 });
             });
 

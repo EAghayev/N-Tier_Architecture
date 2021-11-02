@@ -1,0 +1,14 @@
+﻿@using QuarterApp.Mvc.ViewModels;
+@model CategoryIndexViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<ul>
+    @foreach (var item in Model.Items)
+    {
+        <li>@item.Name</li>
+    }
+</ul>
+

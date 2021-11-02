@@ -61,6 +61,10 @@ namespace QuarterApp.Data.Migrations
                     b.Property<decimal?>("DailyPrice")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<string>("FileName")
+                        .HasColumnType("nvarchar(100)")
+                        .HasMaxLength(100);
+
                     b.Property<bool>("IsDeleted")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")

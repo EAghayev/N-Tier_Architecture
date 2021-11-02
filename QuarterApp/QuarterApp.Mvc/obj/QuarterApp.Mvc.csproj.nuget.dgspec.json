@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Mvc\\QuarterApp.Mvc.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Core\\QuarterApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Core\\QuarterApp.Core.csproj",
+        "projectName": "QuarterApp.Core",
+        "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Core\\QuarterApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Eagha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eagha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Data\\QuarterApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Data\\QuarterApp.Data.csproj",
+        "projectName": "QuarterApp.Data",
+        "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Data\\QuarterApp.Data.csproj",
+        "packagesPath": "C:\\Users\\Eagha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eagha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Core\\QuarterApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Core\\QuarterApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Mvc\\QuarterApp.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Mvc\\QuarterApp.Mvc.csproj",
+        "projectName": "QuarterApp.Mvc",
+        "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Mvc\\QuarterApp.Mvc.csproj",
+        "packagesPath": "C:\\Users\\Eagha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Mvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eagha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Service\\QuarterApp.Service.csproj": {
+                "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Service\\QuarterApp.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Service\\QuarterApp.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Service\\QuarterApp.Service.csproj",
+        "projectName": "QuarterApp.Service",
+        "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Service\\QuarterApp.Service.csproj",
+        "packagesPath": "C:\\Users\\Eagha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eagha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Data\\QuarterApp.Data.csproj": {
+                "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P123\\Quarter\\QuarterApp\\QuarterApp.Data\\QuarterApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
